@@ -1,9 +1,17 @@
 name = "MyProject"
 uuid = "b6623268-9a17-423c-b045-25aa7927e6ad"
-authors = ["Jesse Perla <jesseperla@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["Jesse Perla <jesseperla@gmail.com> and contributors"]
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
+Distributions = "0.25.122"
+LinearAlgebra = "1.12.0"
+Test = "1.11.0"
 julia = "1.12"
 
 [extras]
